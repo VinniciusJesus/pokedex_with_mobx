@@ -7,7 +7,7 @@ import 'package:pokedex_with_mobx/models/specie.dart';
 import 'package:pokedex_with_mobx/stores/pokeapi_store.dart';
 import 'package:pokedex_with_mobx/stores/pokeapiv2_store.dart';
 
-class AbaStore extends StatelessWidget {
+class AbaSobre extends StatelessWidget {
   final PokeApiV2Store _pokeApiV2Store = GetIt.instance<PokeApiV2Store>();
   final PokeApiStore _pokeApiStore = GetIt.instance<PokeApiStore>();
 
